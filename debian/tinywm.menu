@@ -1,0 +1,5 @@
+?package(tinywm): \
+	needs="wm" \
+	section="Window Managers" \
+	title="TinyWM" \
+	command="/usr/bin/tinywm"

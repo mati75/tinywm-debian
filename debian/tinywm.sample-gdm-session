@@ -1,0 +1,8 @@
+#!/bin/sh
+#
+# /etc/gdm/Sessions/tinywm
+#
+# global tinywm session file -- used by gdm
+
+exec /etc/X11/Xsession /usr/bin/tinywm
+

@@ -1,0 +1,9 @@
+tinywm for Debian
+-----------------
+
+TinyWM is a ridiculously tiny window manager implemented in nearly as
+few lines of C as possible, without being obfuscated or entirely
+useless. It allows you to move, resize, focus (sloppy), and raise
+windows.
+
+ -- Nobuhiro Iwamatsu <hemamu@t-base.ne.jp>  Mon, 14 Mar 2005 00:13:19 +0900

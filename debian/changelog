@@ -1,0 +1,74 @@
+tinywm (1.3-9) unstable; urgency=low
+
+  * Add debian menu entry. (Closes: #664687)
+    debian/tinywm.menu.
+
+ -- Nobuhiro Iwamatsu <iwamatsu@debian.org>  Thu, 22 Mar 2012 02:27:24 +0900
+
+tinywm (1.3-8) unstable; urgency=low
+
+  * Update debian/control.
+    - Remove Dm-Upload-Allowed.
+    - Update Standards-Version to 3.9.3.
+  * Update patch format to DEP3.
+
+ -- Nobuhiro Iwamatsu <iwamatsu@debian.org>  Wed, 07 Mar 2012 12:52:46 +0900
+
+tinywm (1.3-7) unstable; urgency=low
+
+  * Update debian/control.
+    - Update email address.
+    - Remove Dm-Upload-Allowed.
+    - Update Standards-Version to 3.9.2.
+    - Change build system from cdbs to debhelper.
+  * Change format to 3.0 (quilt).
+    Add source/format file.
+  * Add patches/add_install_taget.patch.
+  * Fix build with ld --as-needed. (Closes: #641397)
+    Add patches/fix_ftbfs_ld_as_needed.patch.
+
+ -- Nobuhiro Iwamatsu <iwamatsu@debian.org>  Tue, 27 Sep 2011 12:25:47 +0900
+
+tinywm (1.3-6) unstable; urgency=low
+
+  * Update Standards-Version.
+  * Fix FTBFS with new dpkg-dev. (closes: #535312)
+
+ -- Nobuhiro Iwamatsu <iwamatsu@nigauri.org>  Fri, 03 Jul 2009 23:29:07 +0900
+
+tinywm (1.3-5) unstable; urgency=low
+
+  * Change maintainer e-mail address.
+  * Change use to CDBS. 
+  * Update Standards-Version.
+  * Add "DM-Upload-Allowed: yes" to debian/control.
+  * Now build-deps on x11proto-core-dev instead of obsolete x-dev.
+    (closes: #515457)
+
+ -- Nobuhiro Iwamatsu <iwamatsu@nigauri.org>  Wed, 25 Mar 2009 20:24:28 +0900
+
+tinywm (1.3-4) unstable; urgency=low
+
+  * Removing xlibs-dev and replacing with libx11-dev (closes: #347051)
+
+ -- Nobuhiro Iwamatsu <hemamu@t-base.ne.jp>  Mon,  9 Jan 2006 23:03:44 +0900
+
+tinywm (1.3-3) unstable; urgency=low
+
+  * Fixed does not remove alternatives (closes: #333302)
+
+ -- Nobuhiro Iwamatsu <hemamu@t-base.ne.jp>  Wed, 12 Oct 2005 21:32:09 +0900
+
+tinywm (1.3-2) unstable; urgency=low
+
+  * Fixes can't purge tinywm (closes: #306175)
+  * Change discription of man and control file (closes: #306418, #306419)
+  * /etc/gdm/Sessions/tinywm was not installed (closes: #311172)
+
+ -- Nobuhiro Iwamatsu <hemamu@t-base.ne.jp>  Sun,  1 May 2005 12:43:22 +0900
+
+tinywm (1.3-1) unstable; urgency=low
+
+  * Initial release, closes: #298195 
+
+ -- Nobuhiro Iwamatsu <hemamu@t-base.ne.jp>  Mon, 14 Mar 2005 00:13:19 +0900

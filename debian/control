@@ -1,0 +1,20 @@
+Source: tinywm
+Section: x11
+Priority: optional
+Maintainer: Nobuhiro Iwamatsu <iwamatsu@debian.org>
+Build-Depends: debhelper (>= 7.0.50~), quilt (>= 0.46-7~), libx11-dev, libxext-dev,
+	python-xlib, x11proto-core-dev
+Standards-Version: 3.9.3
+
+Package: tinywm
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Provides: x-window-manager
+Description: tiny window manager
+ TinyWM is a small, simple window manager.  It has a minimal memory
+ footprint, which makes it useful in embedded systems.  It features window
+ move, resize, and raise operations, and supports "sloppy focus".
+ .
+ Due to its simplicity, its source code (in C and Python) can be used as a
+ reference implementation for developers seeking to understand basic window
+ manager programming.
