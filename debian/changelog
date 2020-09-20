@@ -1,3 +1,12 @@
+tinywm (1.3-9.1) UNRELEASED; urgency=medium
+
+  * 
+  * debian/patches:
+    + Remove fix_ftbfs_ld_as_needed.patch -- remove included upstream.
+    + Add 2014.patch as cherry pick from upstream git tree.
+
+ -- Mateusz Łukasik <mati75@linuxmint.pl>  Sun, 20 Sep 2020 13:11:58 +0200
+
 tinywm (1.3-9) unstable; urgency=low
 
   * Add debian menu entry. (Closes: #664687)
