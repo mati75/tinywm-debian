@@ -11,6 +11,7 @@ tinywm (1.3-10) UNRELEASED; urgency=medium
   * Drop debian menu entry.
   * Update debian/copyright.
   * Clear debian/rules.
+  * Add debian/watch file.
 
  -- Mateusz Łukasik <mati75@linuxmint.pl>  Sun, 20 Sep 2020 13:11:58 +0200
 
