@@ -1,12 +1,9 @@
 #!/usr/bin/make -f
 
-LDFLAGS=$(shell dpkg-buildflags --get LDFLAGS)
-LDFLAGS+=-Wl,-z,defs -Wl,--as-needed
-
-export LDFLAGS
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 
 %:
-	dh $@ --with quilt
+	dh $@
 
 override_dh_install:
 	install -m 644  debian/tinywm.desktop \

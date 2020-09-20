@@ -2,9 +2,11 @@ Source: tinywm
 Section: x11
 Priority: optional
 Maintainer: Mateusz Łukasik <mati75@linuxmint.pl>
-Build-Depends: debhelper (>= 7.0.50~), quilt (>= 0.46-7~), libx11-dev, libxext-dev,
-	python-xlib, x11proto-core-dev
-Standards-Version: 3.9.3
+Build-Depends: debhelper-compat (= 13), libx11-dev, libxext-dev,
+	python3-xlib, x11proto-core-dev
+Standards-Version: 4.5.0
+Homepage: http://incise.org/tinywm.html
+Rules-Requires-Root: no
 
 Package: tinywm
 Architecture: any

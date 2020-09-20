@@ -1,6 +1,7 @@
 Description: Merge all changes from upstream git from 2014
 Author: Mateusz Łukasik <mati75@linuxmint.pl>
 Last-Update: 2020-09-20
+Forwarded: not-needed
 
 --- a/Makefile
 +++ b/Makefile
