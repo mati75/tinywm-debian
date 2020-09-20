@@ -1,6 +1,6 @@
-tinywm (1.3-9.1) UNRELEASED; urgency=medium
+tinywm (1.3-10) UNRELEASED; urgency=medium
 
-  * 
+  * New maintainer.
   * debian/patches:
     + Remove fix_ftbfs_ld_as_needed.patch -- remove included upstream.
     + Add 2014.patch as cherry pick from upstream git tree.

@@ -1,7 +1,7 @@
 Source: tinywm
 Section: x11
 Priority: optional
-Maintainer: Nobuhiro Iwamatsu <iwamatsu@debian.org>
+Maintainer: Mateusz Łukasik <mati75@linuxmint.pl>
 Build-Depends: debhelper (>= 7.0.50~), quilt (>= 0.46-7~), libx11-dev, libxext-dev,
 	python-xlib, x11proto-core-dev
 Standards-Version: 3.9.3
